@@ -53,7 +53,7 @@ export async function createPost(
   if (!topic) {
     return {
       errors: {
-        _form: ["can't Find Topic"],
+        _form: ["Can't Find Topic"],
       },
     };
   }

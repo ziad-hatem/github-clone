@@ -25,7 +25,7 @@ export default function CommentShow({ commentId, comments }: CommentShowProps) {
     <div className="p-4 border mt-2 mb-1">
       <div className="flex gap-3">
         <Image
-          src={comment.user.image || ""}
+          src={comment?.user?.image || ""}
           alt="user image"
           width={40}
           height={40}
